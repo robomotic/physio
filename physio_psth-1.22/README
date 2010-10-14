@@ -1,0 +1,76 @@
+PHYSIO
+------
+
+This is a small program to read neural spike data from an analogue
+source and do some simple analysis on it. It was developed to read and
+display data from Tobi Delbrücks neuromorphic analog VLSI
+retina/simple cell chip
+(http://www.ini.unizh.ch/~tobi/friend/chip/index.html). This
+compination proved to be a nice setup for classroom demonstrations.
+
+For data acquisition, the comedi library (http://www.comedi.org/) is used, so
+any comedi device may be used to fetch the data. It has been tested
+with the USB-DUX.
+
+For other drivers, the function MainWindow::timerEvent(QTimerEvent *)
+in physio.cpp has to be modified to reflect the number of channels and
+precision of the device.
+
+
+License
+-------
+
+This piece of software is released under the GNU General Public
+License.
+
+http://www.gnu.org/licenses/licenses.html#GPL
+
+So please go ahead and modify/extend it.
+
+
+Installation
+------------
+
+You need the following libraries to compile and run the program:
+
+Comedi: http://www.comedi.org/download.php
+QT3: http://www.trolltech.com/download/qt/x11.html
+QWT: http://qwt.sourceforge.net/
+
+Once all libraries are up and running, have a look at "physio.pro"
+and modify it.
+
+Then run "qmake", which should generate a Makefile and "make" to
+compile everything. To finally run the program, you MUST have a comedi
+device installed.
+
+
+Running
+-------
+
+Start the program with "./physio". The top plot shows the raw data. On the
+bottom, a PSTH may be plotted.
+
+The parameters for the PSTH can be specified in the "PSTH parameters"
+box on the left. In the "PSTH recording" box, a specific number of
+stimulus repetitions/cycles can be specified.
+
+The "print PSTH" button generates a postscript file of the bottom plot
+tthat may be sent to the printer or saved. "save PSTH" saves the PSTH
+data as ASCII file for later use with gnuplot.
+
+Contact
+-------
+
+This program was written by Matthias Hennig. Contact me at:
+
+Matthias H. Hennig
+Department of Psychology
+University of Stirling
+Stirling
+FK9 4LA
+Scotland, UK
+Phone: +44 01786 466379, Fax: +44 01786 467641
+hennig@cn.stir.ac.uk
+
+Bug fixes by Bernd Porr, BerndPorr@f2s.com, in 2005

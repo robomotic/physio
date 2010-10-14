@@ -1,0 +1,11 @@
+In this repo there are the softwares for the course "physiology of perception".
+
+The relevant package is physio_psth-1.21-qt3update a gross coversion to make it work with qt4.
+
+Dependecies:
+libqt4-dev
+libqwt4c2
+libqt4-qt3support - Qt 3 compatibility library for Qt 4 
+libcomedi-dev - Development library for Comedi
+libcomedi0 - Library for Comedi
+

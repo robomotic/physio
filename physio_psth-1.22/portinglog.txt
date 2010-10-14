@@ -1,0 +1,43 @@
+Log for qt3to4 on Fri Jan 8 19:01:29 2010. Number of log entries: 37
+In file /home/epokh/physio/physio_psth-1.21/physio_psth.cpp at line 135 column 13: QHBoxLayout -> Q3HBoxLayout
+In file /home/epokh/physio/physio_psth-1.21/physio_psth.cpp at line 135 column 43: QHBoxLayout -> Q3HBoxLayout
+In file /home/epokh/physio/physio_psth-1.21/physio_psth.cpp at line 136 column 13: QVBoxLayout -> Q3VBoxLayout
+In file /home/epokh/physio/physio_psth-1.21/physio_psth.cpp at line 136 column 46: QVBoxLayout -> Q3VBoxLayout
+In file /home/epokh/physio/physio_psth-1.21/physio_psth.cpp at line 137 column 13: QVBoxLayout -> Q3VBoxLayout
+In file /home/epokh/physio/physio_psth-1.21/physio_psth.cpp at line 137 column 43: QVBoxLayout -> Q3VBoxLayout
+In file /home/epokh/physio/physio_psth-1.21/physio_psth.cpp at line 152 column 11: QGroupBox -> Q3GroupBox
+In file /home/epokh/physio/physio_psth-1.21/physio_psth.cpp at line 152 column 46: QButtonGroup -> Q3ButtonGroup
+In file /home/epokh/physio/physio_psth-1.21/physio_psth.cpp at line 152 column 60: QGroupBox -> Q3GroupBox
+In file /home/epokh/physio/physio_psth-1.21/physio_psth.cpp at line 168 column 11: QGroupBox -> Q3GroupBox
+In file /home/epokh/physio/physio_psth-1.21/physio_psth.cpp at line 168 column 44: QButtonGroup -> Q3ButtonGroup
+In file /home/epokh/physio/physio_psth-1.21/physio_psth.cpp at line 168 column 58: QGroupBox -> Q3GroupBox
+In file /home/epokh/physio/physio_psth-1.21/physio_psth.cpp at line 195 column 11: QGroupBox -> Q3GroupBox
+In file /home/epokh/physio/physio_psth-1.21/physio_psth.cpp at line 195 column 48: QButtonGroup -> Q3ButtonGroup
+In file /home/epokh/physio/physio_psth-1.21/physio_psth.cpp at line 195 column 62: QGroupBox -> Q3GroupBox
+In file /home/epokh/physio/physio_psth-1.21/physio_psth.cpp at line 228 column 11: QGroupBox -> Q3GroupBox
+In file /home/epokh/physio/physio_psth-1.21/physio_psth.cpp at line 228 column 44: QButtonGroup -> Q3ButtonGroup
+In file /home/epokh/physio/physio_psth-1.21/physio_psth.cpp at line 228 column 58: QGroupBox -> Q3GroupBox
+In file /home/epokh/physio/physio_psth-1.21/physio_psth.cpp at line 301 column 13: QFileDialog -> Q3FileDialog
+In file /home/epokh/physio/physio_psth-1.21/physio_psth.cpp at line 302 column 25: QFileDialog -> Q3FileDialog
+In file /home/epokh/physio/physio_psth-1.21/physio_psth.cpp at line 304 column 29: QFileDialog -> Q3FileDialog
+In file /home/epokh/physio/physio_psth-1.21/physio_psth.cpp at line 309 column 28: IO_WriteOnly -> QIODevice::WriteOnly
+In file /home/epokh/physio/physio_psth-1.21/physio_psth.cpp at line 310 column 17: QTextStream -> Q3TextStream
+In file /home/epokh/physio/physio_psth-1.21/physio_psth.cpp: Added the following include directives:
+	#include <Q3TextStream> 	#include <Q3HBoxLayout> 	#include <QTimerEvent> 	#include <QLabel> 	#include <Q3VBoxLayout> 
+In file /home/epokh/physio/physio_psth-1.21/psthplot.cpp: Added the following include directives:
+	#include <QTimerEvent> 
+In file /home/epokh/physio/physio_psth-1.21/dataplot.cpp at line 27 column 32: red -> Qt::red
+No changes made to file /home/epokh/physio/physio_psth-1.21/main.cpp
+In file /home/epokh/physio/physio_psth-1.21/physio_psth.h at line 25 column 21: qmainwindow.h -> q3mainwindow.h
+In file /home/epokh/physio/physio_psth-1.21/physio_psth.h at line 27 column 16: qframe.h -> q3frame.h
+In file /home/epokh/physio/physio_psth-1.21/physio_psth.h at line 30 column 19: qgroupbox.h -> q3groupbox.h
+In file /home/epokh/physio/physio_psth-1.21/physio_psth.h at line 31 column 22: qbuttongroup.h -> q3buttongroup.h
+In file /home/epokh/physio/physio_psth-1.21/physio_psth.h at line 35 column 21: qtextstream.h -> q3textstream.h
+In file /home/epokh/physio/physio_psth-1.21/physio_psth.h at line 37 column 21: qfiledialog.h -> q3filedialog.h
+In file /home/epokh/physio/physio_psth-1.21/physio_psth.h: Added the following include directives:
+	#include <QTimerEvent> 
+In file /home/epokh/physio/physio_psth-1.21/psthplot.h: Added the following include directives:
+	#include <QTimerEvent> 
+No changes made to file /home/epokh/physio/physio_psth-1.21/dataplot.h
+In file physio_psth.pro: Added entry QT +=  qt3support 
+
