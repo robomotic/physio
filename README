@@ -1,6 +1,8 @@
 In this repo there are the softwares for the course "physiology of perception".
 
-The relevant package is physio_psth-1.21-qt3update a gross coversion to make it work with qt4.
+The software physio_psth-1.21-qt3update was gross coversion to make it work with qt4.
+The software physio_psthqt4 is a final qt4 conversion bug free
+The software physio_stim-0.5.3 contains few improvements from the previous version.
 
 Dependecies:
 libqt4-dev
